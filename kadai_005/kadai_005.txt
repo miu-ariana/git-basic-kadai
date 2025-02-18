@@ -1,0 +1,51 @@
+1 try { . "c:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contri...
+   2 git log
+   3 cd ..
+   4 git init
+   5 echo "Hello, World!" >> hello_world.txt
+   6 git add hello_world.txt
+   7 git commit -m "Add hello_world.txt"
+   8 echo "こんにちは、世界！" >> hello_world.txt
+   9 cat hello_world.txt
+  10 cat hello_world.txt
+  11 code hello_world.txt
+  12 cat hello_world.txt
+  13 git add hello_world.txt
+  14 git commit -m "Update hello_world.txt"
+  15 git log --oneline
+  16 cat hello_world.txt
+  17 git status
+  18 git add git-basic-kadai/
+  19 git commit -m "Add git-basic-kadai directory"
+  20 git push origin main
+  21 git log --oneline hello_world.txt
+  22 mkdir kadai_005
+  23 ls -la
+  24 ls
+  25 git add kadai_005/
+  26 git commit -m "Add git-basic-kadai directory"
+  27 git add git-basic-kadai/
+  28 git commit -m "Add git-basic-kadai directory"
+  29 git status
+  30 git submodule
+  31 git rm --cached -r git-basic-kadai
+  32 rm -f .gitmodules
+  33 ls -Force .gitmodules
+  34 git rm --cached -r git-basic-kadai
+  35 git status
+  36 git commit -m "Remove git-basic-kadai from repository"
+  37 git add git-basic-kadai/
+  38 Remove-Item -Recurse -Force git-basic-kadai\.git
+  39 git status
+  40 git commit -m "Re-add git-basic-kadai as a normal directory"
+  41 git push origin main
+  42 git status
+  43 touch kadai_005.txt
+  44 Get-ChildItem
+  45 Set-Location kadai_005
+  46 New-Item -path kadai_005.txt -ItemType File
+  47 git log -- oneline | Out-File -Encoding utf8 kadai_005.txt
+  48 Get-Content kadai_005.txt
+  49 git add kadai_005.txt
+  50 git commit -m "Add kadai_005.txt with git log history"
+  51 git push origin main
